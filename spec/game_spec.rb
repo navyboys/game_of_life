@@ -36,11 +36,11 @@ describe Game do
                  [[0], [1], [0]]
   end
 
-  it "4 cells" do
+	it "4 cells" do
     assert_stage [[0], [0], [0], [0]],
                  [[0], [0], [0], [0]]
 
-    assert_stage [[1], [0], [0], [0]],
+		assert_stage [[1], [0], [0], [0]],
                  [[0], [0], [0], [0]]
 
     assert_stage [[1], [1], [0], [0]],
@@ -54,5 +54,6 @@ describe Game do
 
     assert_stage [[1], [1], [1], [1]],
                  [[0], [1], [1], [0]]
-  end
+	end
+
 end
